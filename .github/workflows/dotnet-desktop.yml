@@ -2,9 +2,9 @@ name: .NET MAUI
 
 on:
   push:
-    branches: [ master , redesign]
+    branches: [ master , redesign, test-build ]
   pull_request:
-    branches: [ master , redesign]
+    branches: [ master , redesign, test-build ]
   workflow_dispatch:
 
 jobs:
